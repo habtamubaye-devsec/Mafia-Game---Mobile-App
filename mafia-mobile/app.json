@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Mafia Game",
+    "slug": "mafia-mobile",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "scheme": "mafia-mobile",
+    "platforms": ["ios", "android", "web"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mafia.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.mafia.mobile",
+      "usesCleartextTraffic": true
+    }
+  }
+}
